@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой первый лендинг</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">МойБренд</div>
+        <nav>
+            <a href="#home">Главная</a>
+            <a href="#advantages">Почему мы</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Новый уровень вашего бизнеса</h1>
+        <p>Начните зарабатывать больше уже сегодня</p>
+        <button onclick="showAlert()">Узнать больше</button>
+    </section>
+
+    <section id="advantages" class="advantages">
+        <h2>Почему выбирают нас</h2>
+        <div class="cards">
+            <div class="card">🚀 Быстро</div>
+            <div class="card">🔒 Надёжно</div>
+            <div class="card">💡 Просто</div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Подпишитесь на новости</h2>
+        <form id="subscribeForm">
+            <input type="email" placeholder="Ваш e-mail" required>
+            <button type="submit">Подписаться</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        © 2026 МойБренд. Все права защищены.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

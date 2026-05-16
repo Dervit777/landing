@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #0a0f1c;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+
+.hero {
+    background: linear-gradient(135deg, #1e2a3a, #0f172a);
+    color: white;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    background: #f59e0b;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+.advantages {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.card {
+    background: #f1f5f9;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    min-width: 150px;
+}
+
+.contact {
+    background: #f8fafc;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+form {
+    margin-top: 1rem;
+}
+
+input {
+    padding: 0.75rem;
+    width: 250px;
+    border: 1px solid #cbd5e1;
+    border-radius: 2rem;
+}
+
+form button {
+    margin-top: 0;
+    margin-left: 0.5rem;
+}
+
+footer {
+    background: #0a0f1c;
+    color: #94a3b8;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media (max-width: 640px) {
+    header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    nav a {
+        margin: 0 0.75rem;
+    }
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+}
